@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BoursicoTalk – L'éducation financière en toute simplicité</title>
+  <meta name="description" content="BoursicoTalk, média belge d'éducation financière : comprendre la bourse, l'épargne et l'économie simplement.">
+  <style>
+    :root { --bleu: #0b2545; --vert: #13a76b; --fond: #f6f8fb; --texte: #1c2733; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--texte); background: var(--fond); line-height: 1.6; }
+    header { background: var(--bleu); color: #fff; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    header .logo { font-size: 1.4rem; font-weight: 800; }
+    header .logo span { color: var(--vert); }
+    nav a { color: #fff; text-decoration: none; margin-left: 1.25rem; font-weight: 500; }
+    nav a:hover { color: var(--vert); }
+    .hero { background: linear-gradient(135deg, var(--bleu), #134074); color: #fff; text-align: center; padding: 5rem 1.5rem; }
+    .hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+    .hero p { font-size: 1.15rem; max-width: 640px; margin: 0 auto 2rem; opacity: .9; }
+    .btn { display: inline-block; background: var(--vert); color: #fff; padding: .85rem 1.75rem; border-radius: 8px; text-decoration: none; font-weight: 600; }
+    .btn:hover { opacity: .9; }
+    section { max-width: 1000px; margin: 0 auto; padding: 4rem 1.5rem; }
+    section h2 { font-size: 1.8rem; margin-bottom: 1.5rem; color: var(--bleu); text-align: center; }
+    .cartes { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
+    .carte { background: #fff; border-radius: 12px; padding: 1.75rem; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+    .carte h3 { color: var(--bleu); margin-bottom: .5rem; }
+    .apropos { text-align: center; max-width: 700px; }
+    footer { background: var(--bleu); color: #cfd8e3; text-align: center; padding: 2rem 1.5rem; font-size: .9rem; }
+    footer a { color: #fff; margin: 0 .5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Boursico<span>Talk</span></div>
+    <nav>
+      <a href="#themes">Thèmes</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>La finance, enfin expliquée simplement</h1>
+    <p>BoursicoTalk est un média belge d'éducation financière. Bourse, épargne, actualité économique : on décrypte tout, sans jargon.</p>
+    <a class="btn" href="#themes">Découvrir nos contenus</a>
+  </div>
+
+  <section id="themes">
+    <h2>Nos thèmes</h2>
+    <div class="cartes">
+      <div class="carte">
+        <h3>📈 Bourse</h3>
+        <p>Comprendre les marchés, les actions et les ETF pour investir en connaissance de cause.</p>
+      </div>
+      <div class="carte">
+        <h3>💶 Épargne</h3>
+        <p>Les bons réflexes pour gérer son budget et faire travailler son argent.</p>
+      </div>
+      <div class="carte">
+        <h3>📰 Actualité</h3>
+        <p>L'actualité économique et financière belge et internationale, décryptée.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos" class="apropos">
+    <h2>À propos</h2>
+    <p>Notre mission : rendre l'éducation financière accessible à tous. Nos contenus ont une vocation pédagogique et ne constituent pas des conseils en investissement.</p>
+  </section>
+
+  <footer id="contact">
+    <p>© 2026 BoursicoTalk – Tous droits réservés</p>
+    <p><a href="#">LinkedIn</a> · <a href="#">Instagram</a> · <a href="#">YouTube</a></p>
+  </footer>
+</body>
+</html>
